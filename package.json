@@ -1,0 +1,26 @@
+{
+  "name": "alert-me",
+  "version": "1.0.0",
+  "description": "movie alert service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishindrareddy/Alert-me.git"
+  },
+  "author": "rishi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishindrareddy/Alert-me/issues"
+  },
+  "homepage": "https://github.com/rishindrareddy/Alert-me#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongojs": "^2.4.1"
+  }
+}
